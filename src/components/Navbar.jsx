@@ -24,11 +24,11 @@ function Navbar() {
                 <span className='nav-icon'></span>
             </label>
             <ul className='menu'>
-                <li><a href="#" className='active'>Home</a></li>
-                <li><a href="#">Features</a></li>
+                <li><a href="#" className='active'>Tentang</a></li>
+                <li><a href="#">Fitur</a></li>
+                <li><a href="#">Aplikasi</a></li>
                 <li><a href="#">Download</a></li>
-                <li><a href="#">UI</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#">Beli</a></li>
             </ul>
         </nav>
     )

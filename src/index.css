@@ -34,7 +34,7 @@ input{
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('./assets/backgrounds.png');
+  background-image: url('./assets/plamfet.png');
 }
 nav{
 display: flex;
@@ -79,7 +79,7 @@ color:#000000;
 nav ul li a:hover{
 background-color: #72EBC3;
   color:#ffffff;
-box-shadow: 5px 10px 30px rgba(2, 238, 255, 0.336);
+box-shadow: 5px 10px 30px rgba(0, 255, 191, 0.696);
 transition: all ease 0.2s;
 }
 nav .menu-btn,
@@ -90,7 +90,7 @@ nav .menu-btn,
 font-family: 'Montserrat';
 width: 50%;
 position: absolute;
-  left: 22%;
+left: 58%;
 top: 50%;
 transform: translate(-22%,-50%);
 }
@@ -123,7 +123,7 @@ justify-content: center;
 color:#ffffff;
 }
 .cv-btn:hover{
-background-color: #0099ff;
+background-color: #36c998;
   transition: all ease 0.5s;
   color: #ffffff;
 }
@@ -188,7 +188,7 @@ border: none;
 background-color:#72EBC3;
 }
 .about-text button:hover{
-background-color: rgb(0, 132, 255);
+background-color: #36c998;
   transition: all ease 0.3s;
   color: #ffffff;
 }
@@ -402,11 +402,11 @@ border-radius: 20px;
   transition: 0.4s ease-out;
 }
 .contact-input a:hover{
-  background-color:#0099ff;
+  background-color:#36c998;
 }
 @media(max-width:1190px){
 #main{
-  background-size: 1150px !important;
+  background-image: none !important;
   
 }
 .name{
