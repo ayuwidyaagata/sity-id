@@ -1,5 +1,5 @@
-import React from 'react'
-import Navbar from './Navbar'
+import React from 'react';
+import Navbar from './Navbar';
 
 function Header() {
   return (
@@ -18,4 +18,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Header;

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function FeatureBox(props) {
   return (
@@ -14,4 +14,4 @@ function FeatureBox(props) {
   )
 }
 
-export default FeatureBox
+export default FeatureBox;
